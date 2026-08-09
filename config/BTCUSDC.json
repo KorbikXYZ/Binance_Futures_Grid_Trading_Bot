@@ -1,0 +1,13 @@
+{
+  "direction": "LONG",
+  "leverage": 10,
+  "order_count": 15,
+  "step_up": 0.9,
+  "step_down": 0.9,
+  "order_amount_stable": 11,
+  "symbol": "BTCUSDC",
+  "exchange": "binance",
+  "use_futures": true,
+  "num_of_cycles":20,
+  "max_open_rice":160000
+}

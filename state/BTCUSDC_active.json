@@ -1,0 +1,51 @@
+{
+    "config": {
+        "direction": "LONG",
+        "leverage": 4,
+        "order_count": 8,
+        "step_up": 1.2,
+        "step_down": 1.2,
+        "order_amount_stable": 11,
+        "symbol": "BTCUSDC",
+        "exchange": "binance",
+        "use_futures": true,
+        "num_of_cycles": 3,
+        "max_open_rice": 160000
+    },
+    "trades": [
+        {
+            "id": 1,
+            "buy": [
+                19472245099,
+                "107988.9000",
+                "0.001",
+                "07/08/25 05:08:13"
+            ],
+            "sell": [
+                19472258048,
+                109284.8,
+                0.001
+            ],
+            "filled": false,
+            "margin": 27.0,
+            "leverage": 4,
+            "profit": 0,
+            "active": true
+        },
+        {
+            "id": 2,
+            "buy": [
+                19472258391,
+                106693.0,
+                0.001
+            ],
+            "sell": null,
+            "filled": false,
+            "margin": 26.67,
+            "leverage": 4,
+            "profit": 0,
+            "active": true
+        }
+    ],
+	"cycle":1
+}
